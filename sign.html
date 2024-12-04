@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&family=Pacifico&family=Righteous&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <title>login</title>
+    </head>
+    <body>
+
+
+        <div class="smart mx-auto my-5">
+            <div class="container py-3 d-flex justify-content-center align-items-cente flex-column text-center">
+                <h1 class=" text-center mt-5">Smart Login System</h1>
+             <form class="w-100 mx-auto">
+                <div class="inp-co my-3 mx-auto">
+                    <input type="text" class="form-control" placeholder="Enter your name" oninput="Validations(this)" id="pname">
+                </div>
+                <div class="inp-co my-3 mx-auto">
+                    <input type="email" class="form-control" placeholder="Enter your email"oninput="Validations(this)" id="email">
+                </div>
+                <div class="inp-co my-3 mx-auto">
+                    <input type="password" class="form-control" placeholder="Enter Your password"oninput="Validations(this)" id="password">
+                </div>
+                <p id="pvaild" class="text-center p-2 text-danger d-none">All inputs is required</p>
+                <p  id="succses" class="text-center p-2 text-success d-none">success</p>
+
+                <div class="inp-co my-3 mx-auto"> 
+                    <button type="button" id="btnsign" class="w-100 p-2">Sign Up</button>
+                </div>
+    
+        
+             </form>
+             <p class="text-white">You have an account? <a class="text-white" href="login.html">Signin</a></p>        
+            </div>
+          </div>
+    
+    
+        <script src="js/main-sign.js"></script>
+    
+    </body>
+</html>

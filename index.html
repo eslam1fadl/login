@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <title>login</title>
+    </head>
+<body>
+
+
+    <div class="smart mx-auto my-5">
+        <div class="container py-3 d-flex justify-content-center align-items-cente flex-column text-center">
+            <h1 class=" text-center mt-5">Smart Login System</h1>
+         <form class="w-100 mx-auto">
+            <div class="inp-co my-3 mx-auto">
+                <input type="email" class="form-control" oninput="Validations(this)" placeholder="Enter your email" id="email">
+            </div>
+            <div class="inp-co my-3 mx-auto">
+                <input type="password" class="form-control" oninput="Validations(this)" placeholder="Enter Your password" id="password">
+            </div>
+            <p id="pvaild" class="text-center p-2 text-danger d-none">All inputs is required</p>
+            <div class="inp-co my-3 mx-auto"> 
+                <button type="button" class="w-100 p-2" id="btn"> login</button>
+            </div>
+
+    
+         </form>
+         <p class="text-white">Don’t have an account? <a class="text-white" href="sign.html">Sign Up</a></p>
+    
+        </div>
+      </div>
+
+
+    <script src="js/main-login.js"></script>
+
+</body>
+</html>
